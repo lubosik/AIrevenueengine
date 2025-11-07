@@ -222,22 +222,9 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="w-full relative z-10"
           >
-            <p className="text-gray-text text-sm sm:text-base mb-6">
+            <p className="text-gray-text text-sm sm:text-base">
               Trusted by businesses ready to grow
             </p>
-            
-            {/* Logo Carousel Placeholder */}
-            <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12 opacity-60">
-              {/* Placeholder logos - will be replaced with actual client logos */}
-              {[1, 2, 3, 4].map((i) => (
-                <div
-                  key={i}
-                  className="text-gray-text text-2xl font-semibold"
-                >
-                  Logo
-                </div>
-              ))}
-            </div>
           </motion.div>
         </div>
       </div>
