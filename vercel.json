@@ -1,8 +1,8 @@
 {
-  "name": "ai-revenue-engine",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite",
+  "installCommand": "npm install --include=optional",
   "rewrites": [
     {
       "source": "/(.*)",
