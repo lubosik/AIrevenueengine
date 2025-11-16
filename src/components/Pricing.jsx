@@ -58,10 +58,10 @@ export default function Pricing() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-4 sm:mb-6 px-2 sm:px-0">
-            Flexible Packages For Every Business
+            Ready to Grow?
           </h2>
           <p className="text-lg sm:text-xl text-gray-text max-w-3xl mx-auto leading-relaxed px-2 sm:px-0">
-            Every business is different. We build custom solutions that fit your needs and budget.
+            Your time is valuable. Your leads are too. Let's make both work harder for you.
           </p>
         </motion.div>
 

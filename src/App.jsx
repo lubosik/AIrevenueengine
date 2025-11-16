@@ -1,6 +1,9 @@
 import { lazy, Suspense } from 'react'
 import Navigation from './components/Navigation'
 import Hero from './components/Hero'
+import StoryBegins from './components/StoryBegins'
+import Vision from './components/Vision'
+import Bridge from './components/Bridge'
 import ScrollToTop from './components/ScrollToTop'
 import ScrollProgress from './components/ScrollProgress'
 
@@ -27,6 +30,9 @@ function App() {
       <ScrollProgress />
       <Navigation />
       <section id="home"><Hero /></section>
+      <StoryBegins />
+      <Vision />
+      <Bridge />
       <Suspense fallback={<SectionLoader />}>
         <section id="services"><Services /></section>
       </Suspense>

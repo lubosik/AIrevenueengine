@@ -150,8 +150,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-text max-w-3xl mb-4 sm:mb-6 leading-relaxed relative z-10 px-2 sm:px-0"
           >
-            We build AI systems that qualify leads, book appointments, and follow up automatically. 
-            So you can focus on closing deals, not chasing them.
+            We build AI systems that qualify leads, book appointments, and follow up automatically so you can focus on closing deals, not chasing them.
           </motion.p>
 
           {/* 5 Star Rating */}
@@ -223,7 +222,7 @@ export default function Hero() {
             className="w-full relative z-10"
           >
             <p className="text-gray-text text-sm sm:text-base">
-              Trusted by businesses ready to grow
+              50+ businesses trust us to grow revenue using AI systems that work around the clock.
             </p>
           </motion.div>
         </div>

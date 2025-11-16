@@ -1,29 +1,40 @@
-# 🤖 Claude Code - Quick Deployment Guide
+# 🤖 Claude Code - Quick Deployment Guide (Updated)
 
 ## 🎯 Your Mission
 
-Deploy the AI Revenue Engine landing page to Vercel from the GitHub repository: `lubosik/AIrevenueengine`
+Deploy the updated AI Revenue Engine landing page to Vercel from the GitHub repository: `lubosik/AIrevenueengine`
+
+**Latest Updates:** Enhanced copywriting, new journey sections (Story Begins, Vision, Bridge), updated pricing, and Unsplash images.
 
 ---
 
 ## ⚡ Quick Start (3 Steps)
 
-### Step 1: Push to GitHub
+### Step 1: Commit & Push Latest Changes
 
 The project is already initialized with Git. Run:
 
 ```bash
 cd "/Users/ghost/AI Revenue Engine"
 
-# Add remote (if not already added)
-git remote add origin https://github.com/lubosik/AIrevenueengine.git
+# Check status
+git status
 
-# Commit everything
+# Add all new files and changes
 git add .
-git commit -m "Complete AI Revenue Engine landing page - Production ready"
+
+# Commit with descriptive message
+git commit -m "Update: Enhanced copywriting, journey sections, pricing, and images
+
+- Added Story Begins, Vision, and Bridge journey sections
+- Updated Services with new copy, pricing, and business results
+- Integrated Unsplash images throughout journey
+- Updated Hero and Pricing section messaging
+- Landing page pricing: \$1 first page, \$999 second (min 2 pages)
+- Removed 'business outcome' phrase throughout"
 
 # Push to GitHub
-git push -u origin main
+git push origin main
 ```
 
 **OR** use the automated script:
@@ -65,8 +76,14 @@ cd "/Users/ghost/AI Revenue Engine"
 
 ## ✅ Pre-Deployment Checklist
 
-All items are already complete:
+All items are complete:
 
+- [x] All new components created and tested
+- [x] Copywriting updated throughout
+- [x] Pricing information added to Services
+- [x] Unsplash images integrated
+- [x] No "business outcome" phrase in copy
+- [x] Landing page pricing: $1/$999 correctly displayed
 - [x] All code committed
 - [x] No console errors
 - [x] All images in `public/images/`
@@ -98,18 +115,43 @@ All items are already complete:
 
 ---
 
-## 📁 Important Files
+## 📁 Important Files (Updated)
 
 ```
 AI Revenue Engine/
-├── src/                    # React components
+├── src/
+│   ├── components/
+│   │   ├── StoryBegins.jsx    ← NEW: Journey section
+│   │   ├── Vision.jsx         ← NEW: Journey section
+│   │   ├── Bridge.jsx         ← NEW: Journey section
+│   │   ├── Services.jsx       ← UPDATED: New copy & pricing
+│   │   ├── Hero.jsx           ← UPDATED: New messaging
+│   │   ├── Pricing.jsx        ← UPDATED: New header
+│   │   └── ... (other components)
+│   └── App.jsx                ← UPDATED: Added journey sections
 ├── public/images/          # Case study images (4 images)
 ├── index.html             # Main HTML (with SEO tags)
 ├── package.json           # Dependencies
 ├── vite.config.js         # Build config
-├── tailwind.config.js     # Tailwind config
-└── DEPLOYMENT_HANDOFF.md  # Full documentation
+└── tailwind.config.js     # Tailwind config
 ```
+
+## 🆕 What's New
+
+### New Components:
+- **StoryBegins.jsx** - The struggle every business faces
+- **Vision.jsx** - What life looks like with AI
+- **Bridge.jsx** - How we get you there
+
+### Major Updates:
+- **Services.jsx** - Complete rewrite with:
+  - Detailed pricing for all 6 services
+  - Business results (no "business outcome" phrase)
+  - New client offers
+  - Landing page special: $1 first page, $999 second (min 2 pages)
+- **Hero.jsx** - Updated headline and subheadline
+- **Pricing.jsx** - New "Ready to Grow?" messaging
+- **App.jsx** - Journey sections integrated
 
 ---
 
@@ -145,5 +187,28 @@ Once deployed, the site will be live at: `https://ai-revenue-engine.vercel.app` 
 
 ---
 
-*Last Updated: $(date)*
+*Last Updated: November 2024*  
+*Version: 2.0 - Copywriting & Journey Updates*
+
+---
+
+## 📝 Quick Reference: Latest Changes
+
+**New Journey Flow:**
+1. Hero → Main value proposition
+2. Story Begins → The struggle
+3. Vision → What life looks like with AI
+4. Bridge → How we get you there
+5. Services → What we build (with pricing)
+6. Pricing → Ready to grow?
+
+**Key Pricing Updates:**
+- Landing Pages: $1 first page, $999 second (minimum 2 pages)
+- AI Receptionist: Setup $2,500, Monthly $750-1,000
+- Cold Email: Build $3,000, Optional pay-per-lead
+- Lead Reactivation: Setup $1,000-1,500
+- Revenue Diagnostic: Sprint $2,000
+- Retainers: $997-1,500/month
+
+See `CLAUDE_CODE_HANDOFF_V2.md` for detailed change log.
 
